@@ -15,7 +15,7 @@ body{
     }
 }
 h1{
-background-color:#343652;
+background: linear-gradient(to bottom right,rgb(99, 55, 65), #343652, #999cc5);
 color: whitesmoke;
 padding: 30px 35px;
 margin: -10px -50px;
