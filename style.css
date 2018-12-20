@@ -1,4 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@font-face{
+font-family: "Agency FB";
+src: url("/fonts/agency_fb.ttf");
+font-family: "Alisandra Demo";
+src:url("/fonts/Alisandra\ Demo.ttf");
+}
 
 body{
     background:url(Christmas\ Background.jpg) no-repeat center center fixed;
@@ -16,13 +21,16 @@ padding: 30px 35px;
 margin: -10px -50px;
 text-align:center;
 border-radius: 10px 10px 0 0;
+font-family: 'Alisandra Demo';
 }
 h2{
 background-color: #FEFFED;
+color:#4E4D4B;
 padding: 30px 35px;
 margin: -10px -50px;
 text-align:center;
 border-radius: 10px 10px 0 0;
+font-family:'Agency FB'
 }
 hr{
 margin: 10px -50px;
@@ -34,18 +42,19 @@ div.container{
 width: 900px;
 height: 610px;
 margin:35px auto;
-font-family: 'Raleway', sans-serif;
+font-family: 'Agency FB';
 }
 div.main{
 width: 300px;
 padding: 10px 50px 25px;
 border: 2px solid gray;
 border-radius: 10px;
-font-family: raleway;
 float:left;
 margin-left:25%;
 margin-top:25%;
 background-color: whitesmoke;
+font-size:18px;
+font-family:'Agency FB';
 }
 input[type=text]{
 width: 100%;
@@ -55,8 +64,9 @@ margin-bottom: 25px;
 margin-top: 5px;
 border: 2px solid #ccc;
 color: #4f4f4f;
-font-size: 16px;
+font-size: 18px;
 border-radius: 5px;
+font-family: 'Agency FB';
 }
 label{
 color: #464646;
@@ -67,12 +77,6 @@ font-weight: bold;
 center{
 font-size:32px;
 }
-.note{
-color:red;
-}
-.valid{
-color:green;
-}
 .back{
 text-decoration: none;
 border: 1px solid rgb(0, 143, 255);
@@ -82,7 +86,8 @@ border-radius: 2px;
 color: black;
 }
 input[type=submit]{
-font-size: 16px;
+font-size: 20px;
+font-family: 'Agency FB';
 background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
 border: 1px solid #e5a900;
 color: #4E4D4B;
