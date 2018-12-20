@@ -16,13 +16,19 @@
 <h2>Von mir für dich.</h2>
 
 <!--Formular zur Eingabe des Gutscheincodes-->
-<form action="/gutschein.html">
+<!--
+    <form action="/gutschein.html">
     Gutscheincode: <input type="text" name="Gutscheincode"><br>
     <input type="submit" value="Submit">
     </form>
     
     <p>Click the "Submit" button to verify your code.</p>
+-->
 
+<form action="gutschein.php" method="post">
+    <p>Gutscheincode: <input type="text" name="gutscheincode"></p>
+    <p><input type="submit" name="submit" value="Submit"></p>
+</form>
 
 <!--<a href="Gutschein.html">Gutschein!</a> -->
 
