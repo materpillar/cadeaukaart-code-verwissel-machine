@@ -40,7 +40,8 @@ border: 2px solid gray;
 border-radius: 10px;
 font-family: raleway;
 float:left;
-margin-top:50px;
+margin-left:25%;
+margin-top:25%;
 background-color: whitesmoke;
 }
 input[type=text]{
