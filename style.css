@@ -6,11 +6,11 @@ src:url("/fonts/Alisandra\ Demo.ttf");
 }
 
 body{
-    background:url(Christmas\ Background.jpg) no-repeat center center fixed;
+    background:url(/Images/Christmas\ Background.jpg) no-repeat center center fixed;
 }
 @media only screen and (orientation: portrait){
     body{
-        background:url(Background\ Mobile.jpg) no-repeat;
+        background:url(/Images/Background\ Mobile.jpg) no-repeat;
         background-size: cover;
     }
 }
