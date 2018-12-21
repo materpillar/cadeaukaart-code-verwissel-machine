@@ -7,19 +7,13 @@ function submit()
                     window.location = "gutschein.html";
                     alert("Ich liebe dich!");
                 }
+            else if(cd=="ESSENMITFREUNDEN")
+                {
+                    window.location = "essen.html";
+                    alert("Ich liebe dich!");
+                }
             else
                 {
                     alert("The code you've entered is incorrect");
-                }
-        }
-        {
-            if(cd=="ESSENMITFREUNDEN")
-                {
-                    window.location = "essen.html";
-                    alert("Ich liebe dich!")
-                }
-            else
-                {
-                    alert("The code you've entered is incorrect.")
                 }
         }
