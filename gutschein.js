@@ -5,10 +5,21 @@ function submit()
             if(cd=="ABENTEUER2019")
                 {
                     window.location = "gutschein.html";
-                    alert("Submission successful");
+                    alert("Ich liebe dich!");
                 }
             else
                 {
-                    alert("incorrect code");
+                    alert("The code you've entered is incorrect");
+                }
+        }
+        {
+            if(cd=="ESSENMITFREUNDEN")
+                {
+                    window.location = "essen.html";
+                    alert("Ich liebe dich!")
+                }
+            else
+                {
+                    alert("The code you've entered is incorrect.")
                 }
         }
