@@ -1,16 +1,19 @@
-@font-face{
+@font-face {
 font-family: "Agency FB";
-src: url("/fonts/agency_fb.ttf");
+src: url("fonts/agency_fb.ttf");
+}
+
+@font-face {
 font-family: "Alisandra Demo";
-src:url("/fonts/Alisandra\ Demo.ttf");
+src:url("fonts/Alisandra\ Demo.ttf");
 }
 
 body{
-    background:url(/Images/Christmas\ Background.jpg) no-repeat center center fixed;
+    background:url(Images/Christmas\ Background.jpg) no-repeat center center fixed;
 }
 @media only screen and (orientation: portrait){
     body{
-        background:url(/Images/Background\ Mobile.jpg) no-repeat;
+        background:url(Images/Background\ Mobile.jpg) no-repeat;
         background-size: cover;
     }
 }
@@ -32,7 +35,7 @@ text-align:center;
 border-radius: 10px 10px 0 0;
 font-weight:bolder;
 font-size:30px;
-font-family:'Agency FB'
+font-family:'Agency FB';
 }
 hr{
 margin: 10px -50px;
