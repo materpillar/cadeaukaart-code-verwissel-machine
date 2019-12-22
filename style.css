@@ -10,6 +10,7 @@ src:url("fonts/Alisandra\ Demo.ttf");
 
 body{
     background:url(Images/Leuchtturm.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 @media only screen and (orientation: portrait){
     body{
