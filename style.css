@@ -9,12 +9,13 @@ src:url("fonts/BROADW.TTF");
 }
 
 body{
-    background:url(Images/christmasphoto.jpg) no-repeat center center fixed;
+    background:url(Images/christmasphoto2.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 @media only screen and (orientation: portrait){
     body{
-        background:url(Images/christmasphoto.jpg) no-repeat;
+        background:url(Images/christmasphoto2.jpg) no-repeat;
+        height: 2400px;
         background-size: cover;
     }
 }
