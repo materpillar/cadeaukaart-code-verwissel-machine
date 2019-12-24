@@ -15,7 +15,7 @@ function submit()
     else if(hash === 961)
     {
         window.location = "vienna.html";
-        alert("Wilkommen in den Zwanzigern!");
+        alert("Eine Reise nach ...");
     }
     else
     {
