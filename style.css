@@ -1,20 +1,20 @@
 @font-face {
-font-family: "Agency FB";
-src: url("fonts/agency_fb.ttf");
+font-family: "Billionaire";
+src: url("fonts/BillionaireMediumGrunge.ttf");
 }
 
 @font-face {
-font-family: "Alisandra Demo";
-src:url("fonts/Alisandra\ Demo.ttf");
+font-family: "Broadway";
+src:url("fonts/BROADW.TTF");
 }
 
 body{
-    background:url(Images/Leuchtturm.jpg) no-repeat center center fixed;
+    background:url(Images/christmasphoto.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 @media only screen and (orientation: portrait){
     body{
-        background:url(Images/Leuchtturm.jpg) no-repeat;
+        background:url(Images/christmasphoto.jpg) no-repeat;
         background-size: cover;
     }
 }
@@ -25,7 +25,7 @@ padding: 30px 35px;
 margin: -10px -50px;
 text-align:center;
 border-radius: 10px 10px 0 0;
-font-family: 'Alisandra Demo';
+font-family: 'Broadway';
 }
 h2{
 background-color: #FEFFED;
@@ -36,7 +36,7 @@ text-align:center;
 border-radius: 10px 10px 0 0;
 font-weight:bolder;
 font-size:30px;
-font-family:'Agency FB';
+font-family:'Billionaire';
 }
 hr{
 margin: 10px -50px;
@@ -48,7 +48,7 @@ div.container{
 width: 900px;
 height: 610px;
 margin:35px auto;
-font-family: 'Agency FB';
+font-family: 'Billionaire';
 }
 div.main{
 width: 300px;
@@ -60,7 +60,7 @@ margin-left:25%;
 margin-top:25%;
 background-color: whitesmoke;
 font-size:20px;
-font-family:'Agency FB';
+font-family:'Billionaire';
 }
 input[type=text]{
 width: 100%;
@@ -72,7 +72,7 @@ border: 2px solid #ccc;
 color: #343652;
 font-size: 20px;
 border-radius: 5px;
-font-family: 'Agency FB';
+font-family: 'Billionaire';
 }
 label{
 color: #343652;
@@ -85,7 +85,7 @@ font-size:32px;
 }
 input[type=submit]{
 font-size: 22px;
-font-family: 'Agency FB';
+font-family: 'Billionaire';
 background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
 border: 1px solid #e5a900;
 color:#343652;

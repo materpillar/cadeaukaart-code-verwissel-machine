@@ -12,9 +12,14 @@ function submit()
         window.location = "essen.html";
         alert("Ich liebe dich!");
     }
+    else if(hash === 961)
+    {
+        window.location = "vienna.html";
+        alert("Wilkommen in den Zwanzigern!");
+    }
     else
     {
-        alert("The code you've entered is incorrect");
+        alert("The code you've entered is incorrect!");
     }
 }
 
